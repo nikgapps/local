@@ -18,7 +18,6 @@ myenv/Scripts/activate
 
 Install NikGapps package python package (replace python3 with python.exe if on windows)
 ```
-python3 -m pip install wheel setuptools testresources
 python3 -m pip install nikgapps
 ```
 
