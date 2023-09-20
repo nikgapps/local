@@ -13,12 +13,18 @@ Run following commands in administrator mode after navigating to the folder wher
 ```
 git clone https://github.com/nikgapps/local.git
 cd local
-myenv/Scripts/activate
+cd myenv\Scripts
+activate
 ```
 
 Install NikGapps package python package (replace python3 with python.exe if on windows)
 ```
 python3 -m pip install nikgapps
+```
+
+Come back to local folder
+```
+cd ..\..
 ```
 
 Run following command to build NikGapps core for android 13
